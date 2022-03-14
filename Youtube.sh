@@ -14,7 +14,7 @@ clear
 
 echo -e "\e[102mInstallation des paquet de dépendance a YouTube-DL"
 echo -e "\e[49m "
-apt -y install python3 python3-pip nano curl bash ffmpeg boxes # Installation des choses requise pour YouTube-DL
+apt -y install python3 nano curl bash ffmpeg # Installation des choses requise pour YouTube-DL
 sleep 3
 clear
 
@@ -26,7 +26,7 @@ clear
 
 echo -e "\e[102mInstallation de Youtube-DL"
 echo -e "\e[49m "
-pip3 install --upgrade youtube-dl # Installation de Youtube-DL
+pip3 install --upgrade yt-dlp # Installation de Youtube-DL
 clear
 
 echo -e "\e[102mCréation de fichier partager entre Termux et le téléphone"

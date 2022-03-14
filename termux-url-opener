@@ -1,8 +1,1 @@
-pip3 install --upgrade youtube-dl
-echo -e "\n\tYouTube DL\n\tTermux Version/ Android Version\n\telixir.nathan@gmail.com" | boxes -d shell
-select av in "Audio" "Video"; do
-	case $av in
-		Audio) youtube-dl --ignore-config -x --audio-format mp3 -o "/data/data/com.termux/files/home/storage/shared/Youtube/%(title)s.%(ext)s" $1;;
-		Video) youtube-dl $i;;
-	esac
-done
+youtube-dl $1
