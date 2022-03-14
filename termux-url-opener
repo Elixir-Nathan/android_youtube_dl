@@ -1,1 +1,3 @@
+pip3 install --upgrade yt-dlp
+clear
 youtube-dl $1
