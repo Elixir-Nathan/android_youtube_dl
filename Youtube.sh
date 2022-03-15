@@ -36,10 +36,11 @@ sleep 3
 
 echo -e "\e[102mAjout de la configuration de Youtube-DL"
 echo -e "\e[49m "
-mkdir -p ~/.config/youtube-dl
-curl https://raw.githubusercontent.com/Elixir-Nathan/Youtube-DL-Termux-Script/main/config -o ~/.config/youtube-dl/config
+rm ~/yt-dlp.config
+curl https://raw.githubusercontent.com/Elixir-Nathan/android_youtube_dl/main/config -o ~/yt-dlp.config
 
 echo -e "\e[102mAjout de la fonction de téléchargement"
 echo -e "\e[49m "
 mkdir ~/bin
-curl https://raw.githubusercontent.com/Elixir-Nathan/Youtube-DL-Termux-Script/main/termux-url-opener -o ~/bin/termux-url-opener
+rm ~/bin/termux-url-opener
+curl https://raw.githubusercontent.com/Elixir-Nathan/android_youtube_dl/main/termux-url-opener -o ~/bin/termux-url-opener
