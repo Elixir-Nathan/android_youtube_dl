@@ -36,8 +36,8 @@ sleep 3
 
 echo -e "\e[102mAjout de la configuration de Youtube-DL"
 echo -e "\e[49m "
-rm ~/yt-dlp.config
-curl https://raw.githubusercontent.com/Elixir-Nathan/android_youtube_dl/main/config -o ~/yt-dlp.config
+rm ~/yt-dlp.conf
+curl https://raw.githubusercontent.com/Elixir-Nathan/android_youtube_dl/main/config -o ~/yt-dlp.conf
 
 echo -e "\e[102mAjout de la fonction de téléchargement"
 echo -e "\e[49m "
